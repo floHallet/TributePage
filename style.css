@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto Slab';
@@ -5,9 +14,6 @@ body {
   text-align: center;
 }
 
-main {
-  padding-bottom: 10px;
-}
 
 h1 {
   font-family: 'Ruda';;
@@ -17,7 +23,7 @@ h1 {
 }
 
 #image {
-  width: 95%;
+  width: 100%;
   max-width: 666px;
   background-color: white;
   padding: 15px 15px 30px;
@@ -25,13 +31,13 @@ h1 {
 }
 
 div {
-  width: 75%;
+  width: 95%;
   margin: 2% auto;
 }
 
 
 div p {
-  width: 75%;
+  width: 95%;
   min-width: 300px;
   max-width: 666px;
   margin: 0 auto;
@@ -56,9 +62,7 @@ div p {
 }
 
 footer {
-  position:fixed;
   width: 100%;
-  bottom: 0px;
   background-color: #66C3D1;
 }
 
@@ -67,5 +71,5 @@ footer p {
   font-size: 14px;
   color: white;
   margin: 0;
-  padding: 5px 0;
+  padding: 10px 0;
 }
